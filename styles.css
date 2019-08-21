@@ -1,0 +1,76 @@
+
+
+html,
+body {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    background: url('img/img_bg.jpg');
+}
+
+.main{
+    background:#000;
+}
+img {
+    max-width: 100%;
+}
+
+
+.section-content {
+    padding: 2rem 0;
+}
+
+#about-our-bands {
+    background: #222;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+#bandscarousel{
+    width:90%;
+    margin: auto;
+    padding-top: 5%;
+}
+
+
+
+
+p{
+    text-align: justify;
+    font-family: 'Dosis', sans-serif;
+}
+
+.navbar-default {
+  background: #c9302c;
+  color: #FFF;
+}
+
+#about-our-bands h2{
+  color:#FFF;   
+}
+
+.modal-body{
+    color: #000;
+}
+
+.hdg{
+    font-family: 'Playfair Display', serif;
+}
+
+.navfix{
+    top:0;
+    position: fixed;
+    z-index: 1;
+}
+
