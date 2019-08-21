@@ -3,9 +3,9 @@
 html,
 body {
     height: 100%;
-    width: 90%;
+    width: 100%;
     margin: auto;
-    background: url('img/img_bg.jpg');
+    font-family: 'Playfair Display', serif;
 }
 
 .main{
@@ -21,7 +21,7 @@ img {
 }
 
 #about-our-bands {
-    background: #222;
+    background: url('img/img_bg.jpg');
     background-size: cover;
 }
 
@@ -30,12 +30,17 @@ img {
     color: white;
     padding: 1.875rem;
 }
+.map{
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
 
 #footer-main {
-    background: #222;
+    background: #4b4b4b;
     color: white;
     font-size: 0.8rem;
-    padding: 2.5rem 0;
 }
 #bandscarousel{
     width:90%;
@@ -44,15 +49,17 @@ img {
 }
 
 
-
+#footer-main i {
+    padding: 10%;
+}
 
 p{
     text-align: justify;
-    font-family: 'Dosis', sans-serif;
+    
 }
 
 .navbar-default {
-  background: #c9302c;
+  background: #4b4b4b;
   color: #FFF;
 }
 
@@ -74,3 +81,10 @@ p{
     z-index: 1;
 }
 
+a { 
+    color: inherit; 
+}
+
+.ftr_left{
+    margin-top:2%;
+}
